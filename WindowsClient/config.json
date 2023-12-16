@@ -1,0 +1,594 @@
+﻿{
+  "WebKey": "<<WEBKEY>>",
+  "WebPort": 8888,
+  "Intercoms": [
+    {
+      "IntercomId": 1,
+      "Name": "Garage",
+      "IpAddress": "192.168.1.111",
+      "Port": 8083,
+      "LocationType": "Outdoor",
+      "UseType": "Normal",
+      "DefaultVolume": 50,
+      "EmergencyVolume": 50,
+      "AccessToken": "",
+      "Enabled": true
+    },
+    {
+      "IntercomId": 2,
+      "Name": "FrontEntry",
+      "IpAddress": "192.168.1.112",
+      "Port": 8083,
+      "LocationType": "Outdoor",
+      "UseType": "Normal",
+      "DefaultVolume": 50,
+      "EmergencyVolume": 50,
+      "AccessToken": "",
+      "Enabled": true
+    }
+  ],
+  "Sounds": [
+    {
+      "SoundId": 1,
+      "FileName": "aGuestHasArrivedAt",
+      "SoundName": "aGuestHasArrivedAt",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 2,
+      "FileName": "alert",
+      "SoundName": "alert",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 3,
+      "FileName": "anEmergencyHasBeenReportedIn",
+      "SoundName": "anEmergencyHasBeenReportedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 4,
+      "FileName": "anIssueWithANetworkDeviceHasBeenReported",
+      "SoundName": "anIssueWithANetworkDeviceHasBeenReported",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 4
+    },
+    {
+      "SoundId": 5,
+      "FileName": "aSevereThunderstormIsExpectedToArriveWithinTheNextTenMinutes",
+      "SoundName": "aSevereThunderstormIsExpectedToArriveWithinTheNextTenMinutes",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 5
+    },
+    {
+      "SoundId": 6,
+      "FileName": "aSevereThunderstormWarningHasBeenIssuedForOurArea",
+      "SoundName": "aSevereThunderstormWarningHasBeenIssuedForOurArea",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 5
+    },
+    {
+      "SoundId": 7,
+      "FileName": "assistanceRequestedIn",
+      "SoundName": "assistanceRequestedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 8,
+      "FileName": "aSupervisoryConditionHasBeenReported",
+      "SoundName": "aSupervisoryConditionHasBeenReported",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 9,
+      "FileName": "aTornadoWarningHasBeenIssuedForOurArea",
+      "SoundName": "aTornadoWarningHasBeenIssuedForOurArea",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 4
+    },
+    {
+      "SoundId": 10,
+      "FileName": "aTroubleConditionHasBeenDetected",
+      "SoundName": "aTroubleConditionHasBeenDetected",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 11,
+      "FileName": "attentionAnIntruderHasBeenDetectedLeaveImmediatelyThePoliceHaveBeenNotified",
+      "SoundName": "attentionAnIntruderHasBeenDetectedLeaveImmediatelyThePoliceHaveBeenNotified",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 8
+    },
+    {
+      "SoundId": 12,
+      "FileName": "attentionAttention",
+      "SoundName": "attentionAttention",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 13,
+      "FileName": "backDoor",
+      "SoundName": "backDoor",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 14,
+      "FileName": "backGate",
+      "SoundName": "backGate",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 15,
+      "FileName": "backupInternetConnectionIsActive",
+      "SoundName": "backupInternetConnectionIsActive",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 16,
+      "FileName": "carbonMonoxideDetected",
+      "SoundName": "carbonMonoxideDetected",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 17,
+      "FileName": "codeBlack",
+      "SoundName": "codeBlack",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 18,
+      "FileName": "codeBlue",
+      "SoundName": "codeBlue",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 19,
+      "FileName": "codeGreen",
+      "SoundName": "codeGreen",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 20,
+      "FileName": "codeOrange",
+      "SoundName": "codeOrange",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 21,
+      "FileName": "codePurple",
+      "SoundName": "codePurple",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 22,
+      "FileName": "codeRed",
+      "SoundName": "codeRed",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 23,
+      "FileName": "codeYellow",
+      "SoundName": "codeYellow",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 24,
+      "FileName": "doorOpened",
+      "SoundName": "doorOpened",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 25,
+      "FileName": "frontDoor",
+      "SoundName": "frontDoor",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 26,
+      "FileName": "frontGate",
+      "SoundName": "frontGate",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 27,
+      "FileName": "garageDoor",
+      "SoundName": "garageDoor",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 28,
+      "FileName": "garageEntryDoor",
+      "SoundName": "garageEntryDoor",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 29,
+      "FileName": "heatDetectedIn",
+      "SoundName": "heatDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 30,
+      "FileName": "lockdown",
+      "SoundName": "lockdown",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 31,
+      "FileName": "lockdownLockdownLockdownASecurityIssueHasBeenDetectedInTheBuilding",
+      "SoundName": "lockdownLockdownLockdownASecurityIssueHasBeenDetectedInTheBuilding",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 8
+    },
+    {
+      "SoundId": 32,
+      "FileName": "loiteringDetectedIn",
+      "SoundName": "loiteringDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 33,
+      "FileName": "lowBatteryReported",
+      "SoundName": "lowBatteryReported",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 34,
+      "FileName": "mayIHaveYourAttentionPleasex2",
+      "SoundName": "mayIHaveYourAttentionPleasex2",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 5
+    },
+    {
+      "SoundId": 35,
+      "FileName": "mayIHaveYourAttentionPleasex2AnAlarmHasBeenReportedInTheBuilding",
+      "SoundName": "mayIHaveYourAttentionPleasex2AnAlarmHasBeenReportedInTheBuilding",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 8
+    },
+    {
+      "SoundId": 36,
+      "FileName": "mayIHaveYourAttentionPleasex2AnEmergencyConditionHasBeenDetectedInTheBuilding",
+      "SoundName": "mayIHaveYourAttentionPleasex2AnEmergencyConditionHasBeenDetectedInTheBuilding",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 9
+    },
+    {
+      "SoundId": 37,
+      "FileName": "networkCabinet",
+      "SoundName": "networkCabinet",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 38,
+      "FileName": "overheadDoor",
+      "SoundName": "overheadDoor",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 39,
+      "FileName": "personDetectedIn",
+      "SoundName": "personDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 40,
+      "FileName": "pleaseStandByForFurtherInstructionsIfThereIsAnyEvidenceOfSmoke",
+      "SoundName": "pleaseStandByForFurtherInstructionsIfThereIsAnyEvidenceOfSmoke",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 9
+    },
+    {
+      "SoundId": 41,
+      "FileName": "powerLossDetectedIn",
+      "SoundName": "powerLossDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 42,
+      "FileName": "primaryInternetConnectionHasBeenLost",
+      "SoundName": "primaryInternetConnectionHasBeenLost",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 43,
+      "FileName": "secondaryInternetConnectionHasBeenLost",
+      "SoundName": "secondaryInternetConnectionHasBeenLost",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 44,
+      "FileName": "securityAlert",
+      "SoundName": "securityAlert",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 45,
+      "FileName": "smokeDetectedIn",
+      "SoundName": "smokeDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 46,
+      "FileName": "theAirHandlerHasBeenShutDown",
+      "SoundName": "theAirHandlerHasBeenShutDown",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 47,
+      "FileName": "theAttic",
+      "SoundName": "theAttic",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 48,
+      "FileName": "theBackYard",
+      "SoundName": "theBackYard",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 49,
+      "FileName": "theBalcony",
+      "SoundName": "theBalcony",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 50,
+      "FileName": "theBedroom",
+      "SoundName": "theBedroom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 51,
+      "FileName": "theDownstairs",
+      "SoundName": "theDownstairs",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 52,
+      "FileName": "theDownstairsBathroom",
+      "SoundName": "theDownstairsBathroom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 53,
+      "FileName": "theDriveway",
+      "SoundName": "theDriveway",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 54,
+      "FileName": "theGameRoom",
+      "SoundName": "theGameRoom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 55,
+      "FileName": "theGarage",
+      "SoundName": "theGarage",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 56,
+      "FileName": "theGuestBathroom",
+      "SoundName": "theGuestBathroom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 57,
+      "FileName": "theHallway",
+      "SoundName": "theHallway",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 58,
+      "FileName": "theKitchen",
+      "SoundName": "theKitchen",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 1
+    },
+    {
+      "SoundId": 59,
+      "FileName": "theLaundryRoom",
+      "SoundName": "theLaundryRoom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 60,
+      "FileName": "theLivingRoom",
+      "SoundName": "theLivingRoom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 61,
+      "FileName": "theMasterBathroom",
+      "SoundName": "theMasterBathroom",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 62,
+      "FileName": "theMasterCloset",
+      "SoundName": "theMasterCloset",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 63,
+      "FileName": "theSideYard",
+      "SoundName": "theSideYard",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 64,
+      "FileName": "theUpstairs",
+      "SoundName": "theUpstairs",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 65,
+      "FileName": "theVehicleGate",
+      "SoundName": "theVehicleGate",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 66,
+      "FileName": "theWaterMainHasBeenTurnedOff",
+      "SoundName": "theWaterMainHasBeenTurnedOff",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 68,
+      "FileName": "unauthorizedPersonDetectedIn",
+      "SoundName": "unauthorizedPersonDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 69,
+      "FileName": "urgentAssistanceRequestedIn",
+      "SoundName": "urgentAssistanceRequestedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 70,
+      "FileName": "utilityPowerHasBeenLost",
+      "SoundName": "utilityPowerHasBeenLost",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 71,
+      "FileName": "vehicleGate",
+      "SoundName": "vehicleGate",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 2
+    },
+    {
+      "SoundId": 73,
+      "FileName": "warningASecurityOverrideHasBeenActivated",
+      "SoundName": "warningASecurityOverrideHasBeenActivated",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 4
+    },
+    {
+      "SoundId": 74,
+      "FileName": "waterLeakDetectedIn",
+      "SoundName": "waterLeakDetectedIn",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 3
+    },
+    {
+      "SoundId": 75,
+      "FileName": "whileThisIsBeingVerifiedPleaseLeaveTheBuilding",
+      "SoundName": "whileThisIsBeingVerifiedPleaseLeaveTheBuilding",
+      "SoundVolumeModifier": 0,
+      "PlayTime": 5
+    },
+    {
+      "SoundId": 76,
+      "FileName": "tone7",
+      "SoundName": "slowWhoop",
+      "SoundVolumeModifier": -40,
+      "PlayTime": 7
+    }
+  ],
+  "Announcements": [
+    {
+      "AnnouncementId": 1,
+      "AnnouncementName": "FireEvac",
+      "LoopTimes": 3,
+      "AnnouncementVolumeModifier": 70,
+      "Priority": 1,
+      "SoundNames": [
+        "slowWhoop",
+        "mayIHaveYourAttentionPleasex2AnEmergencyConditionHasBeenDetectedInTheBuilding",
+        "whileThisIsBeingVerifiedPleaseLeaveTheBuilding",
+        "codeRed",
+        "smokeDetectedIn",
+        "theLaundryRoom"
+      ]
+    },
+    {
+      "AnnouncementId": 3,
+      "AnnouncementName": "Doorbell",
+      "LoopTimes": 1,
+      "AnnouncementVolumeModifier": 0,
+      "Priority": 100,
+      "SoundNames": [
+        "DingDong"
+      ]
+    }
+  ],
+  "IntercomGroups": [
+    {
+      "GroupId": 1,
+      "GroupName": "Outdoor",
+      "IntercomNames": [
+        "Garage",
+        "FrontEntry"
+      ]
+    },
+    {
+      "GroupId": 2,
+      "GroupName": "Garage",
+      "IntercomNames": [
+        "Garage"
+      ]
+    }
+  ]
+}
